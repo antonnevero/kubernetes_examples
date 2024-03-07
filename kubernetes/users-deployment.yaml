@@ -13,5 +13,5 @@ spec:
         app: users
     spec:
       containers:
-        name: users
-        image: farnsworth1988/kub-demo-users
+        - name: users
+          image: farnsworth1988/kub-demo-users
