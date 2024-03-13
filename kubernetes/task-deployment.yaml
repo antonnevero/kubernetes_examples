@@ -19,5 +19,5 @@ spec:
             - name: AUTH_ADDRESS
               # value: "10.96.196.129"
               value: "auth-service.default"
-            - name:
+            - name: TASK_FOLDER
               value: tasks
