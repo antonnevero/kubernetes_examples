@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: task-service
+  name: tasks-service
 spec:
   selector:
-    app: task
+    app: tasks
   type: LoadBalancer
   ports:
     - protocol: TCP
